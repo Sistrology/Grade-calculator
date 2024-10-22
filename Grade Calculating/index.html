@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contaner">
+        <div class="box">
+            <h2>Grade Calculating System</h2>
+        </div>
+        <form>
+            <div class="book1">
+                <label>Computer:</label>
+                <input id="bookOne" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="book2">
+                <label>English:</label>
+                <input id="bookTwo" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="book3">
+                <label>Math:</label>
+                <input id="bookThree" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="book4">
+                <label>Physics:</label>
+                <input id="bookFour" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="book5">
+                <label>Chemistry:</label>
+                <input  id="bookFive" type="number" name="" placeholder="Marks">
+            </div>
+            <div class="btn">
+                <button onclick="return calculate()">Result</button>
+            </div>
+        </form>
+        <div>
+            <blockquote>
+    <table>
+        <tr class="first">
+            <td>Total Marks:</td>
+            <td>500</td>
+        </tr>
+        <tr class="second">
+            <td>Obtained Marks:</td>
+            <td id="obtain"></td>
+        </tr>
+        <tr class="third">
+            <td>Percentage:</td>
+            <td id="per"></td>
+        </tr>
+        <tr class="fourth">
+            <td>Grade:</td>
+            <td id="grade"></td>
+        </tr>
+        <tr class="fifth">
+            <td>Remarks:</td>
+            <td id="remarks"></td>
+        </tr>
+    </table>
+    </div>
+</blockquote>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

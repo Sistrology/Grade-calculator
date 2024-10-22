@@ -1,0 +1,172 @@
+*{
+    margin: 0%;padding: 0%;
+  
+}
+.contaner .box{
+    width:1270px;
+    height:100px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(185,70,252,1) 100%);
+}
+.box h2{
+    color: rgb(34,193,195);
+color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+  padding: 35px !important;
+  font-size: xx-large;
+}
+.book1{
+  color: rgb(14, 14, 18);
+    padding: 40px !important;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 60px;
+}
+.book1 #bookOne{
+    border-radius: 2px;
+    border-color: azure;
+    box-shadow: 1px 2px 1px 2px silver;
+    margin-left: 90px;
+    display: flex;
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+}
+.book2{
+    color: silver;
+   margin-left: 40px;
+   margin-top: -40px;
+   font-weight: 800;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   margin-left: 100px;
+}
+.book2 #bookTwo{
+    border-radius: 2px;
+    border-color: azure;
+    box-shadow: 1px 2px 1px 2px silver; margin-left: 90px;
+    display: flex;
+    width: 230px;
+    height: 30px;
+}
+.book3{
+    color: chocolate;
+   font-weight: 800;
+   margin-left: 40px;
+   margin-top: -5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   margin-left: 100px;
+}
+.book3 #bookThree{
+    border-radius: 2px;
+    border-color: azure;
+    box-shadow: 1px 2px 1px 2px silver;
+    margin-left: 90px;
+    display: flex;
+    width: 230px;
+    height: 30px;
+}
+.book4{
+    color: rgb(76, 44, 65);
+    margin-left: 40px;
+   font-weight: 800;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   margin-top: -5px;
+   margin-left: 100px;
+}
+.book4 #bookFour{
+    border-radius: 2px;
+    border-color: azure;
+    box-shadow: 1px 2px 1px 2px silver;
+    margin-left: 90px;
+    display: flex;
+    width: 230px;
+    height: 30px;
+}
+.book5{
+    color: rgb(48, 64, 73);
+ margin-left: 40px;
+   font-weight: 800;
+   font-size: x-large;
+   margin-top: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 100px;
+}
+.book5 #bookFive{
+    border-radius: 2px;
+    border-color: azure;
+    box-shadow: 1px 2px 1px 2px silver;
+    margin-left: 90px;
+    display: flex;
+    margin-top: 5px;
+    width: 230px;
+    height: 30px;
+}
+.btn button{
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 40px;
+    background-color: rgb(43, 223, 226);
+    color: aliceblue;
+    font-size: large;
+    width:130px;
+    height: 30px;
+    border-radius: 5px;
+    border:2px solid black;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.btn button:hover{
+    border:2px solid black;
+    color:pink;
+    background-color: skyblue;
+}
+table{
+    margin-left: 630px;
+    margin-top: -350px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 200, 255);
+    border-radius: 10px;
+    color: pink;
+    border-color: black;
+    text-decoration: dotted !important;
+    box-shadow: 5px 2px 2px 5px pink;
+}
+table .first{
+    font-size:25px;
+    font-weight: 150;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2rem;
+}
+table .second{
+    font-size:25px;
+    font-weight: 50;
+    text-align: center;
+  font-family: monospace;
+  font-size: 1.7rem;
+}
+table .third{
+    font-size:25px;
+    font-weight: 50;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2rem;
+}
+table .fourth{
+    font-size:25px;
+    font-weight: 50;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2rem;
+}
+table .fifth{
+    font-size:25px;
+    font-weight: 50;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2rem;
+}
